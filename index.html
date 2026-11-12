@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bloc de notas flotante gratis: siempre visible encima de otras ventanas</title>
+<meta name="description" content="Bloc de notas online gratuito que flota siempre encima de tus aplicaciones. Varias notas, colores, tipo y tamaño de letra, tamaño de ventana recordado y guardado en tu navegador, sin registro.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#FFD93B">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Bloc de notas flotante gratis: siempre visible encima de otras ventanas">
+<meta property="og:description" content="Bloc de notas online gratuito que flota siempre encima de tus aplicaciones. Varias notas, colores, tipo y tamaño de letra, tamaño de ventana recordado y guardado en tu navegador, sin registro.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bloc de notas flotante gratis: siempre visible encima de otras ventanas">
+<meta name="twitter:description" content="Bloc de notas online gratuito que flota siempre encima de tus aplicaciones. Varias notas, colores, tipo y tamaño de letra, tamaño de ventana recordado y guardado en tu navegador, sin registro.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='8' y='6' width='48' height='52' rx='4' fill='%23FFD93B' stroke='%23B8860B' stroke-width='2'/><rect x='9' y='7' width='46' height='9' rx='3' fill='%23F2B705'/><g stroke='%23B8860B' stroke-width='2.5' stroke-linecap='round'><line x1='16' y1='27' x2='48' y2='27'/><line x1='16' y1='37' x2='48' y2='37'/><line x1='16' y1='47' x2='38' y2='47'/></g></svg>">
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAER0lEQVR4nO2bzWtcVRiHn/fcmUwy06Rpktp0U7GpiBHcCH5Au1BcqiubP0SFIgRvghYU3elf4DKCuyqCS+tCiAsloUWoFC1KaZtO0mY+7jnndTGd0trMnTvfd9r7wGyGcw/v+Z33Ped35s6BjIwnGumksYKggwqlf0i/owxDzMYGQV87HSAaYjTEJGmba9cgDDHr63iAHz4/VopsdaJc7jXEwXAYsEdyVs7d3IOHY29FbAmoIiLotx/PLJWMP5/P62lFp1TbPztsFDCCIlK3EZu1mn70zvr+r+1EaDmIMMSsraEXPj38TEHsT8sn/fFSySGpGvajqEKlarj8Z3B3r+rfeHu18svGWYKVb3AHtW9ZJy9sN2bf1+1ny0v++MJCVDNGVSTdH2NU52Zt/fmTriTefKmKbC23XhQPnM9m6n/9/rHS4sLelZdftEeNUZTUJ0ATVYXNrby7dXvi1Lvnb19tVQqxK+XkoUohCMiLNIQak8EDIILkDLlIbDGuXawAUU1Ux2Dfb4UCARK7CyTaKx9n2gpwPwPGpfrhfqw+QfbGCnDiBNTrwo0dwWAZh3pQBaOWnV2hUhXmp+Pbx2dAGUSUv68X0MICxqS/YkTAFOf563oRTZACba0woqgKE0dPkTcWdTbF5aAgBpOfQn/bBumHAM2O1SP5ApIr9BjkEFAPCQ+ECQVodqwPrIqPB+kv6gGTCTDqAEbNEy9AZ4vg/2ish8qoj0m97MrdC6AggYAxSXec/iONOLC+6znoTgAFcob93Qr1qiVfyA1fBAEbOYLAcOhIsWsROhZAVZEg4G65ws8/XsJZjwlGkAUC6hXvlVdef5a5xRk0ckiH9dBdBgh457F1h/Meotgj98AQAe8VZ33XC0HHAogIWM/0XInX3nyOO+Uqxgz/fYnQGPxUaYL5xRnoYvahhwzAeWafmmZ2caarLvqG10b9d0lv22CU/NAxSLqZ+SY9CSBj91Ppo2ROsJeHMyeYOcHMCWZOMHOCmRPMnGAvXfSFzAn2QOYEe3l40E5wGG/g0ukE++DwkpI+J9gnh5eU9DnBPjm8pKTSCfbD4SUldU6wXw4vKel1gj06vKSk2gkOcuabZE5w1AGMmlgBgqo2prc5yaM/9ySmWT0m0NgUjRXAF/ORCM5Zrw3zMwbpbhox2sgrgrdRUI9tftCXIqiGmNPnbu4ZE2zmcHL592tRFDkFlIYc6frci8l55Y+tf6yr1SQXmEs7S+Wrqsj6+sH5G7sIKsj3+A+tmjO3rt0oXvx3l1whl95/iongIoer1fJBzlCt6gcrK7h7950OvDARm9PN/9h/98nUq1OT5otaXV9yTgtJnh0BChAYiSYLZvtO1a++tbp/oesrM00e7ODiV7NPa+Qma7FVNUImYEJNdOa98hVo3B6TNpemEqEhRtM347FsnE12za+jQYUhZg1Y6zic4XJvwUvpQpWRkSr+A/pzpVLKQhMTAAAAAElFTkSuQmCC">
+<style>
+*{box-sizing:border-box}
+body{margin:0;height:100vh;display:flex;font:14px "Segoe UI",system-ui,sans-serif;color:#222;background:#fafafa}
+aside{width:230px;display:flex;flex-direction:column;gap:8px;padding:10px;background:#f0f0f1;border-right:1px solid #d4d4d8}
+main{flex:1;display:flex;flex-direction:column;min-width:0}
+button,select,input{font:inherit}
+button{border:1px solid #c4c4c8;background:#fff;border-radius:6px;padding:5px 9px;cursor:pointer}
+button:hover{background:#ececee}
+button.on{background:#2563eb;color:#fff;border-color:#2563eb}
+#q{width:100%;padding:6px 8px;border:1px solid #c4c4c8;border-radius:6px}
+#list{flex:1;overflow:auto;display:flex;flex-direction:column;gap:4px}
+#list button{text-align:left;display:flex;gap:8px;align-items:center;overflow:hidden;white-space:nowrap}
+#list button.sel{border-color:#2563eb;box-shadow:0 0 0 1px #2563eb}
+.dot{flex:none;width:12px;height:12px;border-radius:50%;border:1px solid #888}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+#bar{padding:8px 10px;border-bottom:1px solid #d4d4d8;background:#f6f6f7;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.sw{width:24px;height:24px;border-radius:50%;border:2px solid #999;padding:0}
+.sw.sel{border-color:#2563eb;box-shadow:0 0 0 2px #2563eb}
+#ed{flex:1;margin:0;padding:16px;overflow:auto;outline:none;white-space:pre-wrap;word-break:break-word}
+#msg{font-size:12px;color:#555;min-height:16px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+#about{font-size:11px;color:#666;line-height:1.4}
+</style></head><body>
+<aside>
+  <h1 class="sr">Bloc de notas flotante gratis</h1>
+  <input id="q" placeholder="Buscar en las notas…">
+  <div class="row"><button id="add">＋ Nueva</button><button id="dup">Duplicar</button><button id="del">Borrar</button></div>
+  <div id="list"></div>
+  <div class="row"><button id="exp">Copia de seguridad</button><button id="imp">Importar</button></div>
+  <input id="file" type="file" accept=".json" hidden>
+  <div id="msg"></div>
+  <p id="about">Bloc de notas gratuito que flota siempre encima de otras ventanas (Chrome, Edge o Brave 116+). Tus notas se guardan solo en tu navegador.</p>
+</aside>
+<main>
+  <div id="bar">
+    <button id="fl" style="font-weight:600">📌 Flotar</button>
+    <span class="row"><button data-c="bold"><b>N</b></button><button data-c="italic"><i>C</i></button><button data-c="underline"><u>S</u></button><button data-c="strikeThrough"><s>T</s></button></span>
+    <select id="font"></select>
+    <span class="row"><button id="m">−</button><input id="size" type="number" min="8" max="96" style="width:56px"><button id="p">＋</button></span>
+    <span class="row" id="sws"></span>
+  </div>
+  <div id="ed" contenteditable="true" spellcheck="true"></div>
+</main>
+<script>
+const K='bloc-flotante-v1';
+const BG=[
+ {n:'Blanco Windows',bg:'#ffffff',ink:'#000000'},{n:'Amarillo',bg:'#fff59d',ink:'#2b2b2b'},
+ {n:'Rosa',bg:'#ffc9dc',ink:'#2b2b2b'},{n:'Verde',bg:'#c8f0c4',ink:'#2b2b2b'},
+ {n:'Azul',bg:'#c6e2ff',ink:'#2b2b2b'},{n:'Lila',bg:'#dccbff',ink:'#2b2b2b'},
+ {n:'Naranja',bg:'#ffd9a8',ink:'#2b2b2b'},{n:'Gris',bg:'#e4e4e4',ink:'#111111'},
+ {n:'Pizarra',bg:'#263238',ink:'#eceff1'},{n:'Negro',bg:'#111111',ink:'#e8e8e8'}];
+const FN=['Consolas','Segoe UI','Calibri','Georgia','Times New Roman','Comic Sans MS','Verdana'];
+const FF=['Consolas,"Courier New",monospace','"Segoe UI",Arial,sans-serif','Calibri,Arial,sans-serif','Georgia,serif','"Times New Roman",serif','"Comic Sans MS",cursive','Verdana,sans-serif'];
+const $=s=>document.querySelector(s);
+let S,pip=null,pe=null;
+const mk=()=>({id:Date.now()+Math.random(),html:'',bg:0,font:0,size:16});
+try{S=JSON.parse(localStorage.getItem(K))}catch(e){}
+if(!S||!S.notes||!S.notes.length)S={notes:[mk()],cur:0};
+const cur=()=>S.notes[S.cur]||S.notes[0];
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+const txt=h=>{const d=document.createElement('div');d.innerHTML=h;return d.innerText||d.textContent||''};
+const css=n=>`background:${BG[n.bg].bg};color:${BG[n.bg].ink};font-family:${FF[n.font]};font-size:${n.size}px`;
+
+FN.forEach((f,i)=>$('#font').add(new Option(f,i)));
+BG.forEach((b,i)=>{const s=document.createElement('button');s.className='sw';s.title=b.n;s.style.background=b.bg;s.onclick=()=>{cur().bg=i;save();draw()};$('#sws').append(s)});
+
+function drawList(){
+  const q=$('#q').value.toLowerCase();$('#list').innerHTML='';
+  S.notes.forEach((n,i)=>{
+    const t=txt(n.html).trim();if(q&&!t.toLowerCase().includes(q))return;
+    const b=document.createElement('button');b.className=i===S.cur?'sel':'';
+    b.innerHTML='<span class="dot" style="background:'+BG[n.bg].bg+'"></span>';
+    b.append((t.split('\n')[0]||'Nota vacía').slice(0,26));
+    b.onclick=()=>{S.cur=i;save();draw(true)};$('#list').append(b);
+  });
+}
+function draw(full){
+  const n=cur();
+  $('#ed').style.cssText=css(n);
+  if(full!==false&&$('#ed').innerHTML!==n.html)$('#ed').innerHTML=n.html;
+  $('#font').value=n.font;$('#size').value=n.size;
+  [...$('#sws').children].forEach((s,i)=>s.classList.toggle('sel',i===n.bg));
+  if(pe){pe.style.cssText=css(n)+pstyle;if(pe.innerHTML!==n.html)pe.innerHTML=n.html}
+  drawList();
+}
+const pstyle=';margin:0;padding:10px;height:100vh;overflow:auto;outline:none;white-space:pre-wrap;word-break:break-word';
+function plain(e){e.preventDefault();e.target.ownerDocument.execCommand('insertText',false,(e.clipboardData||window.clipboardData).getData('text/plain'))}
+$('#ed').addEventListener('paste',plain);
+$('#ed').addEventListener('input',()=>{cur().html=$('#ed').innerHTML;save();if(pe)pe.innerHTML=cur().html;drawList()});
+$('#q').oninput=drawList;
+$('#add').onclick=()=>{const n=mk(),c=cur();n.bg=c.bg;n.font=c.font;n.size=c.size;S.notes.push(n);S.cur=S.notes.length-1;save();draw(true)};
+$('#dup').onclick=()=>{S.notes.splice(S.cur+1,0,{...cur(),id:Date.now()+Math.random()});S.cur++;save();draw(true)};
+$('#del').onclick=()=>{if(!confirm('¿Borrar esta nota?'))return;S.notes.splice(S.cur,1);if(!S.notes.length)S.notes.push(mk());S.cur=Math.max(0,Math.min(S.cur,S.notes.length-1));save();draw(true)};
+$('#font').onchange=e=>{cur().font=+e.target.value;save();draw()};
+const setSize=v=>{cur().size=Math.max(8,Math.min(96,v||16));save();draw()};
+$('#size').onchange=e=>setSize(+e.target.value);$('#m').onclick=()=>setSize(cur().size-1);$('#p').onclick=()=>setSize(cur().size+1);
+document.querySelectorAll('[data-c]').forEach(b=>{b.onmousedown=e=>e.preventDefault();b.onclick=()=>document.execCommand(b.dataset.c)});
+
+$('#exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:'application/json'}));a.download='bloc-flotante-copia.json';a.click()};
+$('#imp').onclick=()=>$('#file').click();
+$('#file').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);if(!d.notes||!d.notes.length)throw 0;S=d;S.cur=0;save();draw(true);$('#msg').textContent='Copia importada.'}catch(x){$('#msg').textContent='Archivo no válido.'}})};
+
+$('#fl').onclick=async()=>{
+  if(pip){pip.close();return}
+  if(!('documentPictureInPicture' in window)){alert('Este navegador no permite la ventana flotante.\n\nNavegador: '+navigator.userAgent+'\nContexto seguro: '+window.isSecureContext+'\nDirección: '+location.protocol+'\n\nNecesitas Chrome o Edge 116 o superior, abriendo el archivo directamente (no dentro de una vista previa ni de otra web).');return}
+  try{
+    const w=S.win||{w:340,h:260};
+    pip=await documentPictureInPicture.requestWindow({width:w.w,height:w.h});
+    pip.addEventListener('resize',()=>{if(pip&&pip.innerWidth>100){S.win={w:pip.innerWidth,h:pip.innerHeight};save()}});
+    pip.document.title='Nota';
+    pip.document.body.style.margin='0';
+    pe=pip.document.createElement('div');pe.contentEditable='true';pe.spellcheck=true;
+    pip.document.body.append(pe);
+    pe.addEventListener('paste',plain);
+    pe.addEventListener('input',()=>{cur().html=pe.innerHTML;$('#ed').innerHTML=cur().html;save();drawList()});
+    pip.addEventListener('pagehide',()=>{pip=null;pe=null;$('#fl').classList.remove('on');$('#fl').textContent='📌 Flotar'});
+    $('#fl').classList.add('on');$('#fl').textContent='📌 Flotando (cerrar)';
+    draw();pe.focus();
+  }catch(e){pip=null;pe=null;alert('No se pudo abrir la ventana flotante.\n\nError: '+(e&&e.name)+' - '+(e&&e.message))}
+};
+draw(true);
+</script></body></html>
